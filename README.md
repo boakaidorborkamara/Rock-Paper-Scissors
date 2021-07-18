@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-Implementation of grade-school c “rock paper scissors”.
+Implementation of grade-school “rock paper scissors”.
