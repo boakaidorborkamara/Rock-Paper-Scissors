@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-Implementation of grade-school “rock paper scissors”.
+Implementation of grade-school "Rock Paper Scissors”.
