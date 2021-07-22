@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #283618;
+    background-color: #111927;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
@@ -31,6 +31,11 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
+}
+
+header h1{
+    color: #C2C5AA;
 }
 
 main{
@@ -38,7 +43,7 @@ main{
     /* background-color: darkgreen; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -53,20 +58,26 @@ main{
 
 #landing-page-section input{
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 
 #landing-page-section button{
-    width: 50%;
+    width: 60%;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bolder;
-    color: white;
-    background-color: #606C38;
+    color: #111927;
+    background-color: #98C1D9;
     border: none;
     stroke: none;
+}
+
+#landing-page-section button:hover{
+    cursor: pointer;
+    background-color: #7eb2cf;
 }
 
 /* game-field-section */
