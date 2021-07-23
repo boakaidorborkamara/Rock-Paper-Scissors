@@ -53,7 +53,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    display: none;
 }
 
 #landing-page-section input{
@@ -82,5 +82,41 @@ main{
 
 /* game-field-section */
 #game-field-section{
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    /* background-color: violet; */
+}
+
+#human-field{
+    background-color: tomato;
+    width: 40%;
+}
+#human-field .score{
+    background-color: yellow;
+    display: flex;
+}
+
+#computer-field{
+    background-color: tomato;
+    width: 50%;
+}
+
+.scores-section{
+    background-color: yellow;
+    display: flex;
+}
+.items-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item-box {
+    /* background-color: yellow; */
+    width: 30%;
+}
+.item-box img{
+    width: 100%;
 }
